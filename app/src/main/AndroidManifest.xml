@@ -13,6 +13,9 @@
         android:theme="@style/Theme.HelloIelts"
         tools:targetApi="31">
         <activity
+            android:name=".login.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".login.WellcomeActivity"
             android:exported="false" />
         <activity
